@@ -33,7 +33,7 @@ void quickSort(int *L, int n)
         L[i] = x;
 
         /*i+1为下标i之前的元素个数*/
-        quickSort(L, i + 1);
+        quickSort(L, i);
         quickSort(L + i + 1, n - i - 1);
     }
 }
