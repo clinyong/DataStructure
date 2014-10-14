@@ -6,7 +6,7 @@ void select(int *L, int n)
     int i, j, min;
     int temp;
 
-    for(i = 1; i < n; i++) {
+    for(i = 0; i < n; i++) {
         min = i;
 
         for(j = i+1; j < n; j++) {
